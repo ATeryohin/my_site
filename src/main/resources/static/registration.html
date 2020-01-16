@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <body>
+        <form class="input" name="form" method="post" action="#">
+            <div class="wrapper">
+                <label for="Name">Имя</label><input type="textarea" placeholder="Иван" id="Name" required><span></span><br>
+                <label for="surname">Фамилия</label><input type="textarea" placeholder="Иванов" id="Surname" required><span></span><br>
+                <label for="City">Город</label><input type="textarea" placeholder="Ивановск" id="City" required><span></span><br><br>
+                <label for="Email">Эл. почта</label><input type="email" placeholder="example@gmail.com" id="Email" required><span></span><br>
+                <label for="pas">Пароль</label><input type="password" id="pas" placeholder="Пароль"><br>
+                <label for="verpas">Повторите пароль</label><input type="password" id="verpas" placeholder="Пароль" required><span></span><br>
+                <p><label for="captcha">Введите число с картинки</label></p>
+                <div class="image"></div><input id="captcha" type="text" pattern="55102" required><span></span>
+            </div>
+            <div class="button">
+                <button name="#" type="submit">Зарегистрироваться</button>
+            </div>
+        </form>
+    </body>
+</html>
